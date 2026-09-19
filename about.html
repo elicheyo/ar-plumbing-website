@@ -1,376 +1,473 @@
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
-<title>About Armin | A&amp;R Plumbing and Draining</title>
-<meta name="description" content="Meet Armin, owner and master plumber of A&R Plumbing and Draining, serving the Bay Area 24/7."/>
-<!-- Tailwind CSS v3 with Plugins -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              navy: '#09142e',
-              deep: '#0e1f4d',
-              royal: '#1d4ed8',
-              accent: '#2563eb',
-              gold: '#f59e0b',
-              goldHover: '#d97706',
-              light: '#f8fafc',
-              slate: '#f1f5f9'
-            }
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-<!-- Phosphor Icons for Crisp Mobile Plumbing Graphics -->
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
-<!-- Typography & Layout Styles -->
-<style data-purpose="custom-layout">
-    /* Custom utility styling for mobile polish */
-    .hero-mask-shape {
-      border-radius: 2.5rem 2.5rem 2rem 2rem;
-    }
-    .tap-highlight-transparent {
-      -webkit-tap-highlight-color: transparent;
-    }
-    /* Smooth native feel for mobile iOS */
-    body {
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-      padding-bottom: 74px; /* Space for fixed bottom CTA */
-    }
-      .nav-scroll { scrollbar-width: none; }
-    .nav-scroll::-webkit-scrollbar { display: none; }
-    .prose-post p { margin-bottom: .75rem; }
-  </style>
-</head>
-<body class="bg-white text-slate-800 font-sans antialiased overflow-x-hidden tap-highlight-transparent">
-<!-- BEGIN: TopNotificationBar -->
-<div class="bg-brand-navy text-white text-xs px-4 py-2 flex items-center justify-between border-b border-brand-royal/20" data-purpose="emergency-banner">
-<div class="flex items-center space-x-1.5 font-medium">
-<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-<span class="text-slate-200">24/7 Emergency Dispatch</span>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-fixed-dim":"#ffb95f","primary-container":"#1d4ed8","secondary-container":"#fea619","on-tertiary-fixed":"#001d31","surface-variant":"#dae2fd","surface-container-low":"#f2f3ff","on-tertiary":"#ffffff","inverse-surface":"#283044","surface-container":"#eaedff","on-background":"#131b2e","primary-fixed-dim":"#b7c4ff","background":"#faf8ff","inverse-on-surface":"#eef0ff","primary-fixed":"#dce1ff","on-primary":"#ffffff","error":"#ba1a1a","surface-container-highest":"#dae2fd","on-surface":"#131b2e","surface-dim":"#d2d9f4","tertiary-fixed":"#cce5ff","secondary":"#855300","tertiary-container":"#006194","surface-tint":"#2151da","on-secondary-fixed":"#2a1700","on-tertiary-fixed-variant":"#004b73","on-tertiary-container":"#b2d9ff","on-error":"#ffffff","on-primary-container":"#cad3ff","outline":"#747686","on-secondary-container":"#684000","on-primary-fixed":"#001551","inverse-primary":"#b7c4ff","on-error-container":"#93000a","tertiary":"#004870","surface-container-lowest":"#ffffff","on-surface-variant":"#434655","primary":"#0037b0","secondary-fixed":"#ffddb8","on-secondary":"#ffffff","surface-bright":"#faf8ff","outline-variant":"#c4c5d7","on-secondary-fixed-variant":"#653e00","surface":"#faf8ff","surface-container-high":"#e2e7ff","error-container":"#ffdad6","tertiary-fixed-dim":"#93ccff","on-primary-fixed-variant":"#0039b5"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"space-2xl":"3rem","margin-md":"3rem","gutter-lg":"2rem","margin":"1.5rem","space-lg":"1.5rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter":"1.5rem","space-3xl":"4.5rem","space-md":"1rem","space-xl":"2rem","gutter-sm":"1rem","margin-lg":"5rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"label-button":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"stat-counter":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-badge":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"label-button":["15px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"700"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"stat-counter":["44px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"400"}],"label-badge":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"700"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-md":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"700"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><div class="fixed top-0 left-0 right-0 z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-inverse-surface text-inverse-on-surface text-body-sm font-body-sm"><div class="max-w-[1240px] mx-auto px-gutter-lg h-10 flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="flex h-2 w-2 rounded-full bg-secondary-container animate-pulse"></span><span class="font-label-badge text-label-badge uppercase tracking-wider text-secondary-fixed">24/7 Emergency Dispatch</span><span class="hidden sm:inline text-outline-variant">•</span><span class="hidden sm:inline text-inverse-on-surface">Rapid Master Plumber Response Across SF Bay Area</span></div><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-xs whitespace-nowrap text-secondary-container hover:text-secondary-fixed transition-colors font-headline-sm text-body-md sm:text-headline-sm" href="tel:5106092804"><span class="material-symbols-outlined text-[18px]">call</span><span>(510) 609-2804</span></a><a class="hidden lg:flex items-center gap-space-xs text-inverse-on-surface hover:text-white transition-colors text-body-sm font-body-sm" href="mailto:arplumbinganddraining@gmail.com"><span class="material-symbols-outlined text-[16px]">mail</span>arplumbinganddraining@gmail.com</a></div></div></div><header class="bg-surface/90 backdrop-blur-xl"><div class="h-20 max-w-[1240px] mx-auto px-gutter-lg flex items-center justify-between"><a class="flex items-center gap-space-md" href="index.html" aria-label="A&amp;R Plumbing home"><span class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center shrink-0" aria-hidden="true"><span class="material-symbols-outlined text-[22px]">water_drop</span></span><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">A&amp;R Plumbing</span><span class="font-label-badge text-label-badge text-secondary tracking-wider uppercase leading-tight">Master Plumber • Bay Area</span></div></a><nav class="hidden md:flex items-center gap-space-xl" data-active-classes="text-primary font-headline-sm border-b-2 border-primary pb-1"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="index.html">Home</a><span aria-current="page" class="transition-colors text-primary font-headline-sm border-b-2 border-primary pb-1" data-path="about" aria-current="page">About</span><a href="services.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">Services</a><a href="blog.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">Blog</a><a href="contact.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center gap-space-sm bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container px-space-lg py-space-sm rounded-full font-label-button text-label-button shadow-[0_4px_16px_rgba(254,166,25,0.3)] hover:-translate-y-0.5 transition-all" href="tel:5106092804"><span class="material-symbols-outlined text-[18px]">phone_in_talk</span><span>Call Armin (510) 609-2804</span></a><button class="md:hidden w-11 h-11 rounded-full bg-primary text-on-primary flex items-center justify-center" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span class="material-symbols-outlined text-[22px]" id="menuIcon">menu</span></button></div></div><nav class="md:hidden hidden border-t border-outline-variant/40 bg-surface px-gutter-lg py-space-md" id="mobileMenu" aria-label="Mobile"><div class="flex flex-col gap-1"><a class="px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-surface hover:bg-surface-container" href="index.html">Home</a><a class="px-space-md py-space-sm rounded-lg font-body-md text-body-md bg-primary text-on-primary font-semibold" href="about.html" aria-current="page">About</a><a class="px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-surface hover:bg-surface-container" href="services.html">Services</a><a class="px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-surface hover:bg-surface-container" href="blog.html">Blog</a><a class="px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-surface hover:bg-surface-container" href="contact.html">Contact</a><a class="mt-space-sm inline-flex items-center justify-center gap-space-sm bg-secondary-container text-on-secondary-container px-space-lg py-space-sm rounded-full font-label-button text-label-button" href="tel:5106092804"><span class="material-symbols-outlined text-[18px]">phone_in_talk</span><span>Call Armin (510) 609-2804</span></a></div></nav></header></div><main class="w-full pt-[120px] bg-surface min-h-[calc(100vh-120px)]"><div class="flex flex-col w-full">
+<!-- Top Hero Story Banner -->
+<section class="relative w-full bg-surface-container-low overflow-hidden py-space-3xl">
+<div class="absolute -right-24 -top-24 w-96 h-96 bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute left-10 bottom-0 w-80 h-80 bg-secondary-fixed/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="max-w-[1240px] mx-auto px-gutter-lg relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
+<!-- Left Column: Copy & Value Proposition -->
+<div class="lg:col-span-7 space-y-space-lg">
+<div class="inline-flex items-center gap-space-xs bg-surface-container px-space-md py-space-xs rounded-full shadow-sm">
+<span class="material-symbols-outlined text-primary text-[18px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-primary">Master Plumber &amp; Bay Area Specialist</span>
 </div>
-<a class="font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1 transition-colors" href="tel:5106092804">
-<i class="ph ph-phone-call font-bold"></i> (510) 609-2804
-    </a>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight">
+            About A&amp;R Plumbing &amp; Draining – <span class="text-primary">Meet Armin</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            For over 15 years, Master Plumber Armin has set the gold standard in clean, precise, and transparent residential and commercial drainage across San Francisco, East Bay, South Bay, and the Peninsula.
+          </p>
+<!-- Stat Counters Row -->
+<div class="grid grid-cols-3 gap-space-md pt-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm">
+<span class="font-stat-counter text-stat-counter text-primary block">15+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Years Field Mastery</span>
 </div>
-<!-- END: TopNotificationBar -->
-<!-- BEGIN: MainHeader -->
-<header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm" data-purpose="mobile-header">
-<div class="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
-<!-- Logo Branding -->
-<a class="flex items-center space-x-2.5 group" href="index.html">
-<div class="w-10 h-10 rounded-xl bg-brand-royal text-white flex items-center justify-center shadow-md shadow-brand-royal/30">
-<i class="ph ph-drop-half-bottom text-2xl font-bold text-amber-300"></i>
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm">
+<span class="font-stat-counter text-stat-counter text-secondary block">&lt;45m</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Avg. Emergency Arrival</span>
 </div>
-<div>
-<div class="flex items-center space-x-1">
-<span class="text-xl font-extrabold tracking-tight text-brand-navy">A&amp;R</span>
-<span class="text-xs font-bold uppercase tracking-wider bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded">Bay Area</span>
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm">
+<span class="font-stat-counter text-stat-counter text-primary block">100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Upfront Fixed Pricing</span>
 </div>
-<p class="text-[10px] font-semibold tracking-wider text-slate-500 uppercase -mt-0.5">Plumbing &amp; Draining</p>
 </div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="inline-flex items-center gap-space-sm bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-label-button text-label-button px-space-xl py-space-md rounded-full shadow-lg transition-all hover:-translate-y-0.5" href="tel:5106092804">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span>Speak Directly to Armin (510) 609-2804</span>
 </a>
-<!-- Quick Call Badge Button -->
-<a class="inline-flex items-center gap-1.5 bg-amber-400 hover:bg-amber-500 active:scale-95 text-brand-navy text-xs font-extrabold px-3.5 py-2 rounded-full shadow-sm transition-all" href="tel:5106092804">
-<i class="ph-fill ph-phone-call text-sm"></i>
-<span>Call Armin</span>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-highest hover:bg-surface-variant text-on-surface font-label-button text-label-button px-space-xl py-space-md rounded-full transition-all" href="#credentials">
+<span>View Certifications</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
 </a>
 </div>
-<nav aria-label="Main" class="border-t border-slate-100">
-<div class="nav-scroll max-w-lg mx-auto px-3 py-2 flex items-center gap-1 overflow-x-auto">
-<a class="text-slate-600 hover:text-brand-royal hover:bg-blue-50 whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors" href="index.html">Home</a>
-<a class="bg-brand-navy text-white whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors" href="about.html" aria-current="page">About</a>
-<a class="text-slate-600 hover:text-brand-royal hover:bg-blue-50 whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors" href="services.html">Services</a>
-<a class="text-slate-600 hover:text-brand-royal hover:bg-blue-50 whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors" href="blog.html">Blog</a>
-<a class="text-slate-600 hover:text-brand-royal hover:bg-blue-50 whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors" href="contact.html">Contact</a>
 </div>
-</nav>
-</header>
-<!-- END: MainHeader -->
-<main>
-<section class="relative bg-gradient-to-b from-slate-50 via-white to-blue-50/40 pt-6 pb-8 px-4">
-<div class="max-w-lg mx-auto">
-<div class="inline-flex items-center gap-1.5 bg-blue-50 border border-blue-200/80 px-3 py-1 rounded-full text-brand-accent text-xs font-bold tracking-wide uppercase mb-3">
-<i class="ph-fill ph-user-circle text-sm"></i>
-<span>About A&amp;R</span>
+<!-- Right Column: Visual Showcase & Rotating Badge -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto w-full max-w-[440px]">
+<!-- Main Armin Portrait -->
+<div class="w-full h-[460px] rounded-xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Professional portrait of Master Plumber Armin, a friendly experienced tradesman in navy blue technical uniform holding a digital pipe inspection tablet beside modern clean copper plumbing manifold, warm natural lighting, crisp corporate craft aesthetic, hyper-detailed commercial photography." src="images/31ae2677e0.jpg"/>
 </div>
-<h1 class="text-3xl font-black tracking-tight text-brand-navy leading-[1.15] mb-3">MEET ARMIN, YOUR BAY AREA PLUMBER</h1>
-<p class="text-slate-600 text-sm leading-relaxed">A&amp;R Plumbing and Draining is a local, owner-run plumbing company. When you call, you talk to Armin — and Armin shows up.</p>
+<!-- Overlapping Action Inset -->
+<div class="absolute -bottom-8 -left-8 w-44 h-44 rounded-lg overflow-hidden shadow-2xl bg-surface-container-lowest p-1.5 hidden sm:block">
+<img class="w-full h-full object-cover rounded" data-alt="Close up action shot of hands in protective work gloves operating a high precision sewer pipe inspection camera reel inside an immaculate residential utility space, blue ambient lighting with golden work lamp highlights." src="images/0ff8508bad.jpg"/>
+</div>
+<!-- Circular Trade Stamp Floating Pill -->
+<div class="absolute -top-4 -right-4 bg-primary text-on-primary rounded-full w-24 h-24 flex flex-col items-center justify-center p-2 text-center shadow-lg transform rotate-6">
+<span class="material-symbols-outlined text-[26px] text-secondary-fixed-dim">verified_user</span>
+<span class="font-label-badge text-[10px] leading-tight font-bold uppercase tracking-wider text-surface-variant mt-1">MASTER PLUMBER</span>
+</div>
+</div>
+</div>
+</div>
 </div>
 </section>
-<!-- BEGIN: AboutArminSection -->
-<section class="py-8 px-4 bg-white border-t border-slate-100" data-purpose="about-master-plumber">
-<div class="max-w-lg mx-auto">
-<div class="inline-block bg-slate-100 text-slate-700 text-[11px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-md mb-2">
-        OUR STORY
-      </div>
-<h2 class="text-2xl font-extrabold text-brand-navy tracking-tight leading-snug mb-3">
-        HOW WE WORK
-      </h2>
-<!-- Bio Card with Armin details -->
-<div class="bg-slate-50 rounded-2xl p-5 border border-slate-200/80 mb-4">
-<div class="flex items-start gap-3.5 mb-3">
-<div class="w-12 h-12 rounded-full bg-brand-royal text-amber-300 flex-shrink-0 flex items-center justify-center text-2xl shadow-md">
-<i class="ph-fill ph-wrench"></i>
+<!-- Armin's Story & Mission Statement -->
+<section class="w-full py-space-3xl bg-surface">
+<div class="max-w-[1240px] mx-auto px-gutter-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<div class="relative w-full h-[380px] rounded-lg overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="Armin consulting with a smiling Bay Area homeowner in a bright contemporary kitchen, reviewing transparent digital estimates on a tablet, respectful tidy service, clean boot covers on feet, warm morning sunlight." src="images/20dd88a0d5.jpg"/>
 </div>
+<div class="bg-surface-container p-space-md rounded-lg flex items-center gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[28px]">home_repair_service</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+<span class="font-headline-sm text-headline-sm block text-on-surface">No Subcontractors.</span>
+              When you book A&amp;R, Armin personally supervises or conducts your service.
+            </p>
+</div>
+</div>
+<div class="lg:col-span-7 space-y-space-lg">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full">
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-secondary">The Story &amp; Craft</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            Built on Honesty, Precision Diagnostics, and Respect for Your Home.
+          </h2>
+<div class="space-y-space-md font-body-md text-body-md text-on-surface-variant">
+<p>
+              "Plumbing emergencies don't happen on a schedule, and they shouldn't be exploited with predatory surcharges or aggressive sales tactics," says Armin. Founded on the principle of tradesman integrity, A&amp;R Plumbing and Draining was created to give Bay Area families and business owners direct access to an authentic Master Plumber.
+            </p>
+<p>
+              Whether clearing a multi-story grease blockage in downtown San Francisco or replacing an unstable main sewer line under a heritage Oakland bungalow, our philosophy remains unwavering: clean work areas, surgical diagnostic precision, zero mysterious line items, and a genuine commitment to leaving your property cleaner than we found it.
+            </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">check_circle</span>
 <div>
-<h3 class="text-base font-bold text-brand-navy">Armin — Master Plumber &amp; Owner</h3>
-<p class="text-xs text-brand-royal font-semibold">A&amp;R Plumbing and Draining</p>
-<p class="text-xs text-slate-500 mt-0.5">Fully Licensed &amp; Insured California Specialist</p>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Shoe Covers &amp; Tidy Tarps</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">We treat your living space with hospital-grade cleanliness and protective gear.</p>
 </div>
 </div>
-<p class="text-slate-600 text-xs leading-relaxed">
-          At A&amp;R Plumbing, we treat every customer like family. Armin personally guarantees transparent pricing, clean job-sites, and permanent fixes without unnecessary upsells. Whether it’s an urgent midnight drain blockage or complete sewer repair, we arrive ready to solve it on the first trip.
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">check_circle</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Live Camera Verification</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">You see what we see. We display live HD pipe footage before charging a dollar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Dark Full-Bleed Section: Master Plumber Credentials & Certifications -->
+<section class="w-full bg-inverse-surface py-space-3xl text-inverse-on-surface" id="credentials">
+<div class="max-w-[1240px] mx-auto px-gutter-lg space-y-space-2xl">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto space-y-space-sm">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-highest/10 px-space-md py-space-xs rounded-full">
+<span class="material-symbols-outlined text-secondary-fixed text-[16px]">workspace_premium</span>
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-secondary-fixed">Verified Credentials</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-white tracking-tight">
+          Master Level Qualifications &amp; Licenses
+        </h2>
+<p class="font-body-md text-body-md text-surface-variant">
+          Peace of mind comes from knowing your high-pressure lines and sewer networks are in the hands of certified trade leaders.
         </p>
 </div>
-<!-- Trust Badges Grid -->
-<div class="grid grid-cols-2 gap-2 text-xs font-semibold text-slate-700">
-<div class="flex items-center gap-2 bg-blue-50/70 p-2.5 rounded-xl text-brand-navy border border-blue-100">
-<i class="ph-fill ph-check-circle text-brand-royal text-base"></i>
-<span>Direct Contact with Armin</span>
+<!-- Credential Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Credential 1 -->
+<div class="bg-surface-container-highest/10 p-space-lg rounded-lg hover:bg-surface-container-highest/20 transition-all flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary shadow-md">
+<span class="material-symbols-outlined text-[24px]">license</span>
 </div>
-<div class="flex items-center gap-2 bg-blue-50/70 p-2.5 rounded-xl text-brand-navy border border-blue-100">
-<i class="ph-fill ph-clock-afternoon text-brand-royal text-base"></i>
-<span>Same-Day Response</span>
+<h3 class="font-headline-sm text-headline-sm text-white">CA C-36 Master License</h3>
+<p class="font-body-sm text-body-sm text-surface-variant">
+              Officially recognized and state-registered Master Plumbing Contractor in the State of California.
+            </p>
 </div>
-<div class="flex items-center gap-2 bg-blue-50/70 p-2.5 rounded-xl text-brand-navy border border-blue-100">
-<i class="ph-fill ph-shield-check text-brand-royal text-base"></i>
-<span>Upfront Free Quotes</span>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary-fixed font-label-badge text-label-badge uppercase">
+<span class="material-symbols-outlined text-[16px]">check</span> Active &amp; In Good Standing
+          </div>
 </div>
-<div class="flex items-center gap-2 bg-blue-50/70 p-2.5 rounded-xl text-brand-navy border border-blue-100">
-<i class="ph-fill ph-certificate text-brand-royal text-base"></i>
-<span>100% Guaranteed Work</span>
+<!-- Credential 2 -->
+<div class="bg-surface-container-highest/10 p-space-lg rounded-lg hover:bg-surface-container-highest/20 transition-all flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary shadow-md">
+<span class="material-symbols-outlined text-[24px]">shield_person</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-white">$2M Bonded &amp; Insured</h3>
+<p class="font-body-sm text-body-sm text-surface-variant">
+              Comprehensive liability and property indemnification for both luxury residential estates and high-rise commercial.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary-fixed font-label-badge text-label-badge uppercase">
+<span class="material-symbols-outlined text-[16px]">check</span> Full Coverage
+          </div>
+</div>
+<!-- Credential 3 -->
+<div class="bg-surface-container-highest/10 p-space-lg rounded-lg hover:bg-surface-container-highest/20 transition-all flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary shadow-md">
+<span class="material-symbols-outlined text-[24px]">water_damage</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-white">4000 PSI Hydro-Jetting Certified</h3>
+<p class="font-body-sm text-body-sm text-surface-variant">
+              Specialized factory certification in high-velocity water scour, root intrusion cutting, and descaling cast-iron piping.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary-fixed font-label-badge text-label-badge uppercase">
+<span class="material-symbols-outlined text-[16px]">check</span> Factory Certified
+          </div>
+</div>
+<!-- Credential 4 -->
+<div class="bg-surface-container-highest/10 p-space-lg rounded-lg hover:bg-surface-container-highest/20 transition-all flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary shadow-md">
+<span class="material-symbols-outlined text-[24px]">precision_manufacturing</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-white">Trenchless Sewer Pipe Specialist</h3>
+<p class="font-body-sm text-body-sm text-surface-variant">
+              Certified pipe bursting and cured-in-place pipe (CIPP) lining, saving mature driveways and Bay Area landscaped gardens.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary-fixed font-label-badge text-label-badge uppercase">
+<span class="material-symbols-outlined text-[16px]">check</span> Zero-Dig Technology
+          </div>
 </div>
 </div>
 </div>
 </section>
-<!-- END: AboutArminSection -->
-<!-- BEGIN: WhyChooseUsSection -->
-<section class="py-10 px-4 bg-slate-50" data-purpose="why-choose-us">
-<div class="max-w-lg mx-auto">
-<div class="inline-block bg-white border border-slate-200 text-brand-navy text-[11px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-md mb-2">
-        WHY CHOOSE A&amp;R
-      </div>
-<h2 class="text-2xl font-black text-brand-navy tracking-tight leading-snug mb-2">
-        WHY BAY AREA HOMEOWNERS TRUST OUR CREW
-      </h2>
-<p class="text-xs text-slate-600 leading-relaxed mb-6">
-        We understand plumbing emergencies are stressful. Armin and our team make the process smooth, clean, and completely transparent.
-      </p>
-<!-- 4 Pillars Cards (Grid) -->
-<div class="grid grid-cols-1 gap-3">
-<!-- Pillar 1 -->
-<div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
-<div class="w-10 h-10 rounded-lg bg-blue-100 text-brand-royal flex items-center justify-center flex-shrink-0 text-xl font-bold">
-<i class="ph-bold ph-clock-countdown"></i>
+<!-- Core Values Grid: Asymmetric Cards Following Style Guide -->
+<section class="w-full py-space-3xl bg-surface-container-low">
+<div class="max-w-[1240px] mx-auto px-gutter-lg space-y-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs max-w-xl">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full">
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-primary">Our Code of Conduct</span>
 </div>
-<div>
-<h3 class="text-sm font-bold text-brand-navy">24/7 Rapid Emergency Response</h3>
-<p class="text-xs text-slate-600 mt-1 leading-normal">
-              Direct dispatch throughout Alameda, San Francisco, and Santa Clara counties. We arrive fast when minutes matter.
-            </p>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            The Principles That Guide Every Dispatch
+          </h2>
 </div>
-</div>
-<!-- Pillar 2 -->
-<div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
-<div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center flex-shrink-0 text-xl font-bold">
-<i class="ph-bold ph-receipt"></i>
-</div>
-<div>
-<h3 class="text-sm font-bold text-brand-navy">Transparent Upfront Pricing</h3>
-<p class="text-xs text-slate-600 mt-1 leading-normal">
-              No surprise fees, hidden travel charges, or pressure tactics. You approve the clear flat-rate quote before we start.
-            </p>
-</div>
-</div>
-<!-- Pillar 3 -->
-<div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
-<div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 text-xl font-bold">
-<i class="ph-bold ph-user-check"></i>
-</div>
-<div>
-<h3 class="text-sm font-bold text-brand-navy">Master Plumber Armin On Every Call</h3>
-<p class="text-xs text-slate-600 mt-1 leading-normal">
-              You get experienced, licensed leadership on your project, ensuring technical accuracy and top building code compliance.
-            </p>
-</div>
-</div>
-<!-- Pillar 4 -->
-<div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
-<div class="w-10 h-10 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center flex-shrink-0 text-xl font-bold">
-<i class="ph-bold ph-seal-check"></i>
-</div>
-<div>
-<h3 class="text-sm font-bold text-brand-navy">100% Satisfaction Warranty</h3>
-<p class="text-xs text-slate-600 mt-1 leading-normal">
-              Guaranteed workmanship on every repair, drain unclog, and pipe replacement. We do it right the first time.
-            </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- END: WhyChooseUsSection -->
-<!-- BEGIN: ServiceAreaSection -->
-<section class="py-8 px-4 bg-white border-b border-slate-100" data-purpose="service-areas">
-<div class="max-w-lg mx-auto text-center">
-<h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Service Coverage</h3>
-<h2 class="text-xl font-extrabold text-brand-navy mb-3">Proudly Serving The Entire Bay Area</h2>
-<div class="flex flex-wrap justify-center gap-1.5 text-xs font-medium">
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Oakland</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">San Francisco</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Berkeley</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">San Jose</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Fremont</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Hayward</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Richmond</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Walnut Creek</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">Alameda</span>
-<span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">San Leandro</span>
-</div>
-</div>
-</section>
-<!-- END: ServiceAreaSection -->
-<!-- BEGIN: CalloutBanner -->
-<section class="py-8 px-4 bg-gradient-to-r from-blue-900 to-brand-navy text-white text-center" data-purpose="emergency-callout">
-<div class="max-w-lg mx-auto">
-<div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-brand-navy text-2xl font-bold mb-3 shadow-lg">
-<i class="ph-fill ph-phone-call"></i>
-</div>
-<h2 class="text-2xl font-black mb-1 leading-snug">
-        NEED EMERGENCY SERVICE?<br/>WE'RE READY 24/7!
-      </h2>
-<p class="text-xs text-blue-200 mb-5 max-w-sm mx-auto">
-        Don't let a backed-up drain or ruptured pipe flood your home. Armin is ready to respond immediately.
-      </p>
-<a class="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 active:scale-95 text-brand-navy font-black text-base px-8 py-3.5 rounded-full shadow-lg shadow-amber-400/30 transition-transform" href="tel:5106092804">
-<i class="ph-bold ph-phone-outgoing"></i>
-<span>Call Armin: (510) 609-2804</span>
-</a>
-</div>
-</section>
-<!-- END: CalloutBanner -->
-</main>
-<!-- BEGIN: MainFooter -->
-<footer class="bg-brand-navy text-white pt-10 pb-12 px-4 border-t border-slate-800" data-purpose="site-footer">
-<div class="max-w-lg mx-auto space-y-6">
-<!-- Company Brand Overview -->
-<div>
-<div class="flex items-center space-x-2 mb-2">
-<div class="w-8 h-8 rounded-lg bg-brand-royal text-amber-300 flex items-center justify-center font-bold">
-<i class="ph ph-drop-half-bottom text-xl"></i>
-</div>
-<span class="text-lg font-black tracking-tight text-white">A&amp;R Plumbing and Draining</span>
-</div>
-<p class="text-xs text-slate-400 leading-relaxed">
-          Master Plumber Armin delivering premium residential &amp; commercial plumbing services across the greater San Francisco Bay Area.
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Plumbing is more than just turning wrenches—it is safeguarding the sanitation, structural security, and health of Bay Area properties.
         </p>
 </div>
-<!-- Contact Direct Details -->
-<div class="space-y-2 text-xs">
-<h4 class="text-[11px] font-extrabold uppercase tracking-wider text-amber-400">Direct Contact</h4>
-<div class="flex items-center gap-2.5 text-slate-300">
-<i class="ph-bold ph-phone-call text-brand-accent text-base"></i>
-<a class="hover:text-amber-400 font-bold tracking-wide" href="tel:5106092804">510-609-2804</a>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-xl">
+<!-- Value 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between space-y-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[26px]">request_quote</span>
 </div>
-<div class="flex items-center gap-2.5 text-slate-300">
-<i class="ph-bold ph-envelope text-brand-accent text-base"></i>
-<a class="hover:text-amber-400 break-all" href="mailto:arplumbinganddraining@gmail.com">arplumbinganddraining@gmail.com</a>
+<span class="font-stat-counter text-stat-counter text-surface-container-highest">01</span>
 </div>
-<div class="flex items-start gap-2.5 text-slate-300">
-<i class="ph-bold ph-map-pin text-brand-accent text-base mt-0.5"></i>
-<span>Serving Oakland, Berkeley, SF, San Jose, Fremont &amp; All Bay Area</span>
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface">Honesty &amp; Transparent Pricing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              No hidden travel charges, no unexpected emergency multipliers. You receive a comprehensive written estimate before tools touch pipes.
+            </p>
 </div>
-<div class="flex items-center gap-2.5 text-slate-300">
-<i class="ph-bold ph-clock text-brand-accent text-base"></i>
-<span>Hours: Open 24 Hours / 7 Days for Emergencies</span>
-</div>
-</div>
-<!-- Quick Services List -->
-<div class="pt-2 border-t border-slate-800 text-xs">
-<h4 class="text-[11px] font-extrabold uppercase tracking-wider text-amber-400 mb-2">Plumbing Specialties</h4>
-<div class="grid grid-cols-2 gap-1.5 text-slate-400 text-[11px]">
-<div>• Hydro Jetting &amp; Rooter</div>
-<div>• Water Heater Installs</div>
-<div>• Emergency Leak Repair</div>
-<div>• Camera Inspections</div>
-<div>• Sewer Lateral Repairs</div>
-<div>• Gas Pipe Repairs</div>
+<div class="flex gap-space-xs flex-wrap pt-space-xs">
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#ZeroBaitAndSwitch</span>
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#ClearEstimates</span>
 </div>
 </div>
-<div class="pt-2 border-t border-slate-800 text-xs">
-<h4 class="text-[11px] font-extrabold uppercase tracking-wider text-amber-400 mb-2">Pages</h4>
-<div class="flex flex-wrap gap-x-4 gap-y-1.5 text-slate-300"><a class="hover:text-amber-400" href="index.html">Home</a><a class="hover:text-amber-400" href="about.html">About</a><a class="hover:text-amber-400" href="services.html">Services</a><a class="hover:text-amber-400" href="blog.html">Blog</a><a class="hover:text-amber-400" href="contact.html">Contact</a></div>
+<!-- Value 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between space-y-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">timer</span>
 </div>
-<!-- Copyright Subfooter -->
-<div class="pt-6 border-t border-slate-800 text-center text-[10px] text-slate-500 space-y-1">
-<p>© <span class="js-year">2026</span> A&amp;R Plumbing and Draining. All rights reserved.</p>
-<p>Owner &amp; Master Plumber: Armin • Licensed &amp; Insured Bay Area Plumber</p>
+<span class="font-stat-counter text-stat-counter text-surface-container-highest">02</span>
+</div>
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface">Rapid 45-Minute Emergency Response</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              When main sewer overflows or pressurized supply lines burst, minutes make the difference between a mop-up and thousands in water restoration.
+            </p>
+</div>
+<div class="flex gap-space-xs flex-wrap pt-space-xs">
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#24HourFleet</span>
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#DirectDispatch</span>
 </div>
 </div>
-</footer>
-<!-- END: MainFooter -->
-<!-- BEGIN: MobileFixedBottomActionBar -->
-<!-- Fixed bottom call bar for maximum mobile conversions -->
-<aside class="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 px-3 py-2.5 shadow-[0_-4px_15px_rgba(0,0,0,0.08)]" data-purpose="mobile-sticky-action-bar">
-<div class="max-w-lg mx-auto flex items-center gap-2">
-<!-- Quick Email/Msg icon button -->
-<a aria-label="Send Email" class="w-12 h-11 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center flex-shrink-0 active:scale-95 transition-all" href="mailto:arplumbinganddraining@gmail.com">
-<i class="ph ph-envelope text-xl"></i>
+<!-- Value 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between space-y-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[26px]">build_circle</span>
+</div>
+<span class="font-stat-counter text-stat-counter text-surface-container-highest">03</span>
+</div>
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface">Superior Craftsmanship &amp; Technology</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              We never cut corners with temporary patch jobs. We leverage state-of-the-art diagnostic cameras, electronic locators, and heavy-duty parts built for longevity.
+            </p>
+</div>
+<div class="flex gap-space-xs flex-wrap pt-space-xs">
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#CastIronCare</span>
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#PermanentFixes</span>
+</div>
+</div>
+<!-- Value 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-lg shadow-sm flex flex-col justify-between space-y-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">location_city</span>
+</div>
+<span class="font-stat-counter text-stat-counter text-surface-container-highest">04</span>
+</div>
+<div class="space-y-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface">Bay Area Community Commitment</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              We live, work, and raise our families in the Bay Area. We understand local municipal codes, seismic shutoff valve rules, and older historic plumbing configurations.
+            </p>
+</div>
+<div class="flex gap-space-xs flex-wrap pt-space-xs">
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#BayAreaLocal</span>
+<span class="bg-surface-container text-on-surface-variant font-label-badge text-label-badge px-space-sm py-1 rounded-full">#MunicipalCompliance</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Equipment & Diagnostic Technology Showcase -->
+<section class="w-full py-space-3xl bg-surface">
+<div class="max-w-[1240px] mx-auto px-gutter-lg space-y-space-2xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-sm">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full">
+<span class="material-symbols-outlined text-primary text-[16px]">biotech</span>
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-primary">Diagnostic Arsenal</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+          Advanced Equipment That Solves What Others Guess
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          We don't dig up lawns or tear down drywall blindly. Our fleet carries advanced diagnostic gear.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-xl">
+<!-- Tech Item 1 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="h-56 w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Modern high definition sewer scope camera system with self-leveling color head and digital monitor displayed on clean service vehicle deck, crisp blue industrial background, highly technical commercial photography." src="images/9228dc6392.jpg"/>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-sm">
+<div class="space-y-space-xs">
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-wider">Visual Diagnostics</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">HD Self-Leveling Sewer Scope</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Full-color 1080p cameras with integrated sonde transmitters calculate the exact depth and foot marker of tree roots, belly pipes, and crushed clay drains.
+              </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between text-body-sm font-body-sm text-primary">
+<span class="font-semibold">Saves Unnecessary Digging</span>
+<span class="material-symbols-outlined text-[18px]">videocam</span>
+</div>
+</div>
+</div>
+<!-- Tech Item 2 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="h-56 w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Industrial hydro-jetting trailer equipment with high pressure hoses and specialized rotating cutter heads for clearing heavy commercial grease lines and residential roots, professional maintenance photography." src="images/adc1f12c34.jpg"/>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-sm">
+<div class="space-y-space-xs">
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-wider">Root &amp; Sludge Removal</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">4000 PSI Hydro-Jetting Rigs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Unlike simple mechanical snakes that poke tiny holes, our pulsating hydro-jetters scour pipe walls back to their original factory diameter.
+              </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between text-body-sm font-body-sm text-primary">
+<span class="font-semibold">Restores Pipe Capacity</span>
+<span class="material-symbols-outlined text-[18px]">waves</span>
+</div>
+</div>
+</div>
+<!-- Tech Item 3 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="h-56 w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Electronic acoustic ground microphone and digital leak detection system resting on polished basement concrete floor with technician analyzing pipe sound frequency meters, cinematic studio lighting." src="images/d416a7730d.jpg"/>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-sm">
+<div class="space-y-space-xs">
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-wider">Non-Invasive Scent &amp; Sound</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Acoustic Slab Leak Detectors</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Sensors detect sub-surface water hiss beneath concrete slabs without opening a single tile, eliminating speculative destruction in luxury homes.
+              </p>
+</div>
+<div class="pt-space-xs flex items-center justify-between text-body-sm font-body-sm text-primary">
+<span class="font-semibold">Sub-Millimeter Pinpointing</span>
+<span class="material-symbols-outlined text-[18px]">graphic_eq</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Workmanship Promise & Guarantee Callout -->
+<section class="w-full py-space-2xl bg-primary text-on-primary">
+<div class="max-w-[1240px] mx-auto px-gutter-lg">
+<div class="bg-primary-container p-space-2xl rounded-xl shadow-xl flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="space-y-space-sm max-w-2xl">
+<div class="inline-flex items-center gap-space-xs bg-white/15 px-space-md py-space-xs rounded-full">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">gavel</span>
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-secondary-fixed">Our Ironclad Guarantee</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-white tracking-tight">
+            100% Workmanship Warranty on Every Master Repair
+          </h2>
+<p class="font-body-md text-body-md text-on-primary-container">
+            If a cleared drain backs up within our warranty window or an installed copper fitting sweats, Armin returns personally to make it right immediately at zero extra fee to you.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-space-md shrink-0 w-full lg:w-auto">
+<a class="inline-flex items-center justify-center gap-space-sm bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-label-button text-label-button px-space-xl py-space-md rounded-full shadow-lg transition-all" href="tel:5106092804">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+<span>Direct Call Armin</span>
 </a>
-<!-- Primary Big Call Button -->
-<a class="flex-1 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-brand-navy font-black text-sm py-3 px-4 rounded-xl flex items-center justify-center gap-2 shadow-md shadow-amber-400/30 active:scale-[0.98] transition-all" href="tel:5106092804">
-<i class="ph-bold ph-phone-call text-lg animate-bounce"></i>
-<span>CALL ARMIN (510) 609-2804</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Armin's Direct Contact & Service Dispatch Module -->
+<section class="w-full py-space-3xl bg-surface">
+<div class="max-w-[1240px] mx-auto px-gutter-lg">
+<div class="bg-surface-container p-space-2xl rounded-xl shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
+<div class="lg:col-span-7 space-y-space-md">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full">
+<span class="material-symbols-outlined text-primary text-[16px]">contact_phone</span>
+<span class="font-label-badge text-label-badge uppercase tracking-wider text-primary">Direct Master Dispatch</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+              Have an Urgent Issue or Want a Clear Estimate? Talk with Armin Today.
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Skip generic call centers and third-party dispatch algorithms. Get in direct contact with Armin for expert advice or swift emergency scheduling.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<a class="p-space-md bg-surface-container-lowest rounded-lg shadow-sm hover:shadow transition-shadow flex items-center gap-space-md" href="tel:5106092804">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+<div>
+<span class="font-label-badge text-label-badge text-on-surface-variant block uppercase">Direct Phone</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">(510) 609-2804</span>
+</div>
+</a>
+<a class="p-space-md bg-surface-container-lowest rounded-lg shadow-sm hover:shadow transition-shadow flex items-center gap-space-md" href="mailto:arplumbinganddraining@gmail.com">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div>
+<span class="font-label-badge text-label-badge text-on-surface-variant block uppercase">Direct Email</span>
+<span class="font-body-sm text-body-sm font-bold text-on-surface truncate block">arplumbinganddraining@gmail.com</span>
+</div>
 </a>
 </div>
-</aside>
-<!-- END: MobileFixedBottomActionBar -->
-<script data-purpose="interactive-enhancements">
-    // Optional smooth scroll handler for #quote-form
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
+</div>
+<!-- Service Map Territory Badge -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-lg shadow-sm space-y-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary">explore</span> Bay Area Service Area
+            </h3>
+<div class="w-full h-44 rounded-lg shadow-inner relative overflow-hidden bg-surface-container" data-location="San Francisco Bay Area, CA"><iframe class="absolute inset-0 w-full h-full border-0" src="https://www.google.com/maps?q=San+Francisco+Bay+Area,+CA&z=9&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="A&amp;R Plumbing service area map"></iframe></div>
+<div class="flex flex-wrap gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<span class="bg-surface-container px-space-sm py-0.5 rounded">Oakland</span>
+<span class="bg-surface-container px-space-sm py-0.5 rounded">San Francisco</span>
+<span class="bg-surface-container px-space-sm py-0.5 rounded">Berkeley</span>
+<span class="bg-surface-container px-space-sm py-0.5 rounded">San Jose</span>
+<span class="bg-surface-container px-space-sm py-0.5 rounded">Fremont</span>
+<span class="bg-surface-container px-space-sm py-0.5 rounded">Hayward</span>
+<span class="bg-surface-container px-space-sm py-0.5 rounded">Walnut Creek</span>
+</div>
+<div class="flex items-center gap-space-xs text-secondary font-label-badge text-label-badge">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 24 Hours / 7 Days a Week Available
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface mt-margin-lg shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-[1240px] mx-auto px-gutter-lg pt-space-3xl pb-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-2xl mb-space-2xl"><div class="space-y-space-md"><div class="flex items-center gap-space-sm"><span class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center shrink-0" aria-hidden="true"><span class="material-symbols-outlined text-[22px]">water_drop</span></span><span class="font-headline-sm text-headline-sm text-primary">A&amp;R Plumbing</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Armin, Licensed Master Plumber delivering elite residential and commercial drainage, hydro-jetting, and 24/7 rapid emergency repairs across the entire Bay Area.</p><div class="flex items-center gap-space-xs font-label-badge text-label-badge text-tertiary bg-surface-container-high px-space-md py-space-xs rounded-full w-fit"><span class="material-symbols-outlined text-[16px]">verified</span>CA Licensed &amp; Insured Contractor</div></div><div class="space-y-space-md"><h4 class="font-headline-sm text-headline-sm text-on-surface">Quick Links</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a href="index.html" class="hover:text-primary transition-colors">Home Overview</a></li><li><a href="about.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">About Master Plumber Armin</a></li><li><a href="services.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">Drainage &amp; Plumbing Services</a></li><li><a href="blog.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">Plumbing Tips &amp; Insights</a></li><li><a href="contact.html" class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors">Request 24/7 Emergency Service</a></li></ul></div><div class="space-y-space-md"><h4 class="font-headline-sm text-headline-sm text-on-surface">Bay Area Service Cities</h4><ul class="grid grid-cols-2 gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Oakland</li><li>San Francisco</li><li>Berkeley</li><li>San Jose</li><li>Fremont</li><li>Hayward</li><li>Walnut Creek</li><li>Alameda County</li></ul><p class="font-body-sm text-body-sm text-secondary font-medium pt-space-xs">Average dispatch time: 45-60 mins</p></div><div class="space-y-space-md"><h4 class="font-headline-sm text-headline-sm text-on-surface">Emergency Support</h4><div class="space-y-space-sm font-body-sm text-body-sm"><div class="flex items-start gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[20px]">call</span><div><p class="font-headline-sm text-headline-sm text-on-surface">(510) 609-2804</p><span class="font-body-sm text-body-sm text-secondary font-medium">Available 24/7 for urgent drain &amp; pipe emergencies</span></div></div><div class="flex items-center gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[20px]">mail</span><span>arplumbinganddraining@gmail.com</span></div><div class="flex items-center gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[20px]">schedule</span><span>Open 24 Hours / 7 Days a Week</span></div></div></div></div><div class="pt-space-xl flex flex-col sm:flex-row items-center justify-between gap-space-md text-body-sm font-body-sm text-on-surface-variant"><p>© <span class="js-year">2026</span> A&amp;R Plumbing and Draining. All rights reserved. Master Plumber Armin.</p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">shield</span>Safe, bonded &amp; transparent residential &amp; commercial solutions</p></div></div></footer><script>
+  (function () {
+    document.querySelectorAll('.js-year').forEach(function (el) { el.textContent = new Date().getFullYear(); });
+    var btn = document.getElementById('menuToggle'), menu = document.getElementById('mobileMenu'), icon = document.getElementById('menuIcon');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('hidden') === false;
+      btn.setAttribute('aria-expanded', open);
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      icon.textContent = open ? 'close' : 'menu';
     });
-  </script>
-<script>document.querySelectorAll('.js-year').forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
-<script data-purpose="formspree-submit">
-  document.querySelectorAll('.js-quote-form').forEach(function (form) {
-    var status = form.querySelector('.js-form-status');
-    var button = form.querySelector('button[type="submit"]');
-    function show(msg, ok) {
-      status.innerHTML = msg;
-      status.className = 'js-form-status text-xs font-semibold rounded-xl p-3 ' +
-        (ok ? 'bg-emerald-50 text-emerald-800 border border-emerald-200' : 'bg-red-50 text-red-800 border border-red-200');
-    }
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      button.disabled = true;
-      fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status);
-          form.reset();
-          show('Thanks! Armin got your request and will call you back shortly. For emergencies, call <a class="underline" href="tel:5106092804">(510) 609-2804</a>.', true);
-        })
-        .catch(function () {
-          show('Sorry, the request didn\'t go through. Please call <a class="underline" href="tel:5106092804">(510) 609-2804</a> or email <a class="underline" href="mailto:arplumbinganddraining@gmail.com">arplumbinganddraining@gmail.com</a>.', false);
-        })
-        .finally(function () { button.disabled = false; });
-    });
-  });
+  })();
 </script>
 </body></html>
